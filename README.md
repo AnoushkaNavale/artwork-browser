@@ -1,39 +1,32 @@
-# GrowMeOrganic React Internship Assignment
+# Artwork Browser — React Web Application
 
-Art Institute of Chicago artwork browser built with React + TypeScript + Vite + PrimeReact.
+A frontend web application built using **React.js, TypeScript, and Vite** to fetch, display, and manage artwork data from external APIs with efficient data handling and UI performance.
 
-## Features
+---
 
--  **PrimeReact DataTable** with server-side pagination
--  **Row selection** with persistent state across pages
--  **Custom N-row selection** overlay (no prefetching!)
--  **TypeScript** throughout
+## 🚀 Features
 
-## Tech Stack
+- Built using **React functional components and Hooks**
+- Integrated **REST APIs** to fetch and render artwork data dynamically
+- Implemented **server-side pagination** for efficient large dataset handling
+- Designed **interactive DataTable UI** using PrimeReact
+- Developed **persistent row selection logic** across paginated data
+- Optimized frontend performance without unnecessary data prefetching
 
-- React 18
+---
+
+## 🛠 Tech Stack
+
+- React.js (Hooks, Component-based architecture)
 - TypeScript
 - Vite
-- PrimeReact DataTable
+- PrimeReact (DataTable)
+- REST APIs
 
-## Getting Started
+---
+
+## ⚙️ Getting Started
 
 ```bash
 npm install
 npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
-
-## Key Design Decisions
-
-### Persistent Selection (no prefetching)
-Selections are stored as a `Set<number>` of artwork IDs. When the user navigates to a new page, only the current page's data is fetched. The ID set persists in memory and is used to determine which rows should appear selected on any given page.
-
-### Custom N-row Selection (no prefetching)
-Instead of fetching multiple pages to collect N row objects, a `selectByIndexCount` integer is stored. When any page loads, rows whose global index (page offset + row index) falls within the first N rows are automatically marked selected. This avoids prefetching entirely.
