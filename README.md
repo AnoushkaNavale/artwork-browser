@@ -1,4 +1,4 @@
-# 🎨 Artwork Explorer
+#  Artwork Explorer
 
 ### High-performance data exploration built for scale
 
@@ -9,7 +9,7 @@ It’s a **data exploration system**.
 
 ---
 
-## 🚀 Why this exists
+##  Why this exists
 
 Most frontend projects stop at:
 
@@ -25,9 +25,9 @@ Artwork Explorer is built to answer:
 
 ---
 
-## ⚡ What makes it different
+##  What makes it different
 
-### 🧠 Intelligent Data Handling
+###  Intelligent Data Handling
 
 * Server-side pagination — no massive payloads
 * Debounced search — controlled API usage
@@ -36,7 +36,7 @@ Artwork Explorer is built to answer:
 
 ---
 
-### ⚙️ Built for Performance
+###  Built for Performance
 
 * Optimized rendering with memoization
 * Minimal unnecessary re-renders
@@ -44,7 +44,7 @@ Artwork Explorer is built to answer:
 
 ---
 
-### 🎯 Real Product UX (not just UI)
+###  Real Product UX (not just UI)
 
 * Persistent selection across pages
 * Favorites system (state that actually matters)
@@ -56,7 +56,7 @@ Artwork Explorer is built to answer:
 
 ---
 
-### 🔍 Exploration, Not Just Viewing
+###  Exploration, Not Just Viewing
 
 * Search, filter, and sort large datasets
 * Drill down into detailed views
@@ -64,7 +64,7 @@ Artwork Explorer is built to answer:
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * **Frontend:** React + TypeScript
 * **Build:** Vite
@@ -75,7 +75,7 @@ Artwork Explorer is built to answer:
 
 ---
 
-## 📂 Architecture
+##  Architecture
 
 Clean, scalable, and maintainable:
 
@@ -93,7 +93,7 @@ Built to scale — not collapse under feature growth.
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ```bash id="gq4p2l"
 git clone <your-repo-url>
@@ -104,7 +104,7 @@ npm run dev
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash id="3hf82k"
 npm run test
@@ -118,7 +118,7 @@ Covers:
 
 ---
 
-## 📊 Performance Mindset
+##  Performance Mindset
 
 This project is intentionally designed to reflect **real-world frontend challenges**:
 
@@ -129,7 +129,7 @@ This project is intentionally designed to reflect **real-world frontend challeng
 
 ---
 
-## 🚀 Where this can go next
+##  Where this can go next
 
 * Infinite scrolling for continuous browsing
 * Backend integration for persistent user data
@@ -138,7 +138,7 @@ This project is intentionally designed to reflect **real-world frontend challeng
 
 ---
 
-## 🧠 What this project demonstrates
+##  What this project demonstrates
 
 * Ability to build **scalable frontend systems**
 * Strong understanding of **data flow & performance**
@@ -147,10 +147,3 @@ This project is intentionally designed to reflect **real-world frontend challeng
 
 ---
 
-## ⚠️ Final note
-
-This project is not about artworks.
-
-It’s about:
-
-> **how to build frontend systems that don’t break when complexity increases**
